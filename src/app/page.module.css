@@ -1,0 +1,500 @@
+@media  (min-width : 1200px){
+  .main{
+    background-color: black;
+  } 
+  .intro{
+    display: flex;
+    height: calc(100vh - 60px);
+    align-items: center;
+    background-color: black;
+   }
+   .div1 , .div2{
+    width: 50%;
+   }
+   .div1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+   }
+   .div2{
+   
+   }
+   .div1 h1{
+    font-size: 55px;
+   }
+   .div1 h2{
+    font-size: 30px;
+    color: rgb(242, 170, 46);
+   }
+   .img{
+    width: 28vw;
+    filter: contrast(2.3);
+   
+   }
+   .icons{
+    margin: 30px 0;
+   }
+   .icon{
+    padding: 10px 7px;
+    font-size: 43px;
+   }
+   .main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+   }
+   .main2 h1{
+    color: gold;
+   }
+   .cards{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+   }
+
+   .test{
+    height: 800px;
+    margin: 100px;
+    transition: ease-in-out 400ms;
+   }
+   .div11{
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    transition: ease-in-out 400ms;
+   }
+   .div12{
+    display: none;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(166, 213, 38);
+    transition: ease-in-out 400ms;
+   
+   }
+   .test:hover .div12{
+    display: flex;
+   
+   }
+
+   .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+   }
+
+   .contact h1{
+    color: gold;
+
+   }
+
+   .divide{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     
+   }
+
+   .form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+
+   .fstyle{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+   }
+
+   .mstyle{
+     display: flex;
+     flex-direction: column;
+     margin: 10px 10px;
+   }
+   .minput{
+    width : 300px;
+    height: 110px;
+    background-color: rgb(12, 11, 11);
+    border-color: rgb(161, 161, 142);
+    border-radius: 5px;
+    margin: 10px 0;
+    }
+
+   .input{
+      height: 30px;
+      width: 300px;
+      margin: 10px 0;
+      background-color: rgb(12, 11, 11);
+      border-color: rgb(161, 161, 142);
+      border-radius: 5px;
+      padding: 15px 10px;
+      
+   }
+   .button{
+    height: 40px;
+    width : 300px;
+      margin-top: 20px;
+      background-color: rgb(12, 11, 11);
+      border-color: rgb(161, 161, 142);
+      border-radius: 5px;
+   }
+   .details {
+    margin: 50px 300px;
+  }
+  
+  .details h3{
+    font-size: 15px;
+    font-weight: 500;
+    
+    color: rgb(231, 195, 149);
+    
+    
+  }
+
+  .details p{
+    color: rgb(129, 112, 90);
+    margin-bottom: 13px;
+    font-size: 18px;
+  }
+  
+  
+}
+
+@media (min-width :600px ) and (max-width :1200px) {
+  .main{
+    background-color: black;
+  } 
+  .intro{
+    display: flex;
+    height: calc(100vh - 60px);
+    align-items: center;
+    background-color: black;
+   }
+   .div1 , .div2{
+    width: 50%;
+   }
+   .div1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+   }
+   .div2{
+      position: absolute;
+   }
+   .div1 h1{
+    font-size: 55px;
+   }
+   .div1 h2{
+    font-size: 30px;
+    color: rgb(242, 170, 46);
+   }
+   .img{
+    position: absolute;
+    width: 28vw;
+    filter: contrast(2.3);
+    z-index: 900;
+   
+   }
+   .icons{
+    margin: 30px 0;
+   }
+   .icon{
+    padding: 10px 7px;
+    font-size: 43px;
+   }
+   .main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+   }
+   .main2 h1{
+    color: gold;
+   }
+   .cards{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+   }
+
+   .test{
+    height: 800px;
+    margin: 100px;
+    transition: ease-in-out 400ms;
+   }
+   .div11{
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    transition: ease-in-out 400ms;
+   }
+   .div12{
+    display: none;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(166, 213, 38);
+    transition: ease-in-out 400ms;
+   
+   }
+   .test:hover .div12{
+    display: flex;
+   
+   }
+
+   .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+   }
+
+   .contact h1{
+    color: gold;
+
+   }
+
+   .divide{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     
+   }
+
+   .form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+
+   .fstyle{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+   }
+
+   .mstyle{
+     display: flex;
+     flex-direction: column;
+     margin: 10px 10px;
+   }
+   .minput{
+    width : 300px;
+    height: 110px;
+    background-color: rgb(12, 11, 11);
+    border-color: rgb(161, 161, 142);
+    border-radius: 5px;
+    margin: 10px 0;
+    }
+
+   .input{
+      height: 30px;
+      width: 300px;
+      margin: 10px 0;
+      background-color: rgb(12, 11, 11);
+      border-color: rgb(161, 161, 142);
+      border-radius: 5px;
+      padding: 15px 10px;
+      
+   }
+   .button{
+    height: 40px;
+    width : 300px;
+      margin-top: 20px;
+      background-color: rgb(12, 11, 11);
+      border-color: rgb(161, 161, 142);
+      border-radius: 5px;
+   }
+   .details {
+    margin: 50px 100px;
+  }
+  
+  .details h3{
+    font-size: 15px;
+    font-weight: 500;
+    
+    color: rgb(231, 195, 149);
+    
+    
+  }
+
+  .details p{
+    color: rgb(129, 112, 90);
+    margin-bottom: 13px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width :600px) {
+  .main{
+    background-color: black;
+  } 
+  .intro{
+    display: flex;
+    height: calc(100vh - 60px);
+    align-items: center;
+    background-color: black;
+   }
+   .div1 , .div2{
+    width: 50%;
+   }
+   .div1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+   }
+   .div2{
+       position: relative;
+       z-index: 1;
+   }
+   .div1 h1{
+    font-size: 55px;
+   }
+   .div1 h2{
+    font-size: 30px;
+    color: rgb(242, 170, 46);
+   }
+   .img{
+    width: 28vw;
+    filter: contrast(2.3);
+    z-index: 1;
+   
+   }
+   .icons{
+    margin: 30px 0;
+   }
+   .icon{
+    padding: 10px 7px;
+    font-size: 43px;
+   }
+   .main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+   }
+   .main2 h1{
+    color: gold;
+   }
+   .cards{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+   }
+
+   .test{
+    height: 800px;
+    margin: 100px;
+    transition: ease-in-out 400ms;
+   }
+   .div11{
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    transition: ease-in-out 400ms;
+   }
+   .div12{
+    display: none;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(166, 213, 38);
+    transition: ease-in-out 400ms;
+   
+   }
+   .test:hover .div12{
+    display: flex;
+   
+   }
+
+   .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+   }
+
+   .contact h1{
+    color: gold;
+
+   }
+
+   .divide{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     
+   }
+
+   .form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+
+   .fstyle{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+   }
+
+   .mstyle{
+     display: flex;
+     flex-direction: column;
+     margin: 10px 10px;
+   }
+   .minput{
+    width : 300px;
+    height: 110px;
+    background-color: rgb(12, 11, 11);
+    border-color: rgb(161, 161, 142);
+    border-radius: 5px;
+    margin: 10px 0;
+    }
+
+   .input{
+      height: 30px;
+      width: 300px;
+      margin: 10px 0;
+      background-color: rgb(12, 11, 11);
+      border-color: rgb(161, 161, 142);
+      border-radius: 5px;
+      padding: 15px 10px;
+      
+   }
+   .button{
+    height: 40px;
+    width : 300px;
+      margin-top: 20px;
+      background-color: rgb(12, 11, 11);
+      border-color: rgb(161, 161, 142);
+      border-radius: 5px;
+   }
+   .details {
+    margin: 50px 30px;
+  }
+  
+  .details h3{
+    font-size: 15px;
+    font-weight: 500;
+    
+    color: rgb(231, 195, 149);
+    
+    
+  }
+
+  .details p{
+    color: rgb(129, 112, 90);
+    margin-bottom: 13px;
+    font-size: 18px;
+  }
+}

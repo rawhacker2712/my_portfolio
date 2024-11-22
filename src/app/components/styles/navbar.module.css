@@ -1,0 +1,203 @@
+@media  (min-width : 1200px){
+   .navbar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    margin-bottom: 5px;
+    box-shadow: rgb(113, 113, 113) 0 0 5px 0;
+   
+   }
+   .list , .list1{
+    display: flex;
+    list-style: none;
+   }
+   .link{
+    padding: 9px 0.9vw;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 15px;
+    transition: 300ms;
+   }
+   .link:hover{
+    background-color: white;
+    color: black;
+    transition: 300ms;
+   }
+   .menu{
+    display: none;
+   }
+   .title{
+       font-size: 18px;
+       font-weight: 600;
+       color: rgb(221, 210, 210);
+       user-select: none;
+   }
+   .button{
+    outline: none;
+    padding: 9px 30px;
+    border: rgb(221, 210, 210) 2px solid;
+    background-color: transparent;
+    transition: 300ms;
+    border-radius: 20px;
+    color:  rgb(221, 210, 210);;
+   }
+   .button:hover{
+    background-color:  rgb(221, 210, 210);;
+    transition: 300ms;
+    color: black;
+   }
+}
+
+@media (min-width :600px ) and (max-width :1200px) {
+    .navbar{
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3vw;
+        margin-bottom: 20px;
+        box-shadow: rgb(113, 113, 113) 0 0 10px 0;
+       
+       }
+       .list{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        height: calc(100vh - 60px);
+        width: 300px;
+        padding: 0px 0 0 00px;
+        list-style: none;
+        justify-content: flex-start;
+        /* background-color: blue; */
+        box-shadow: rgb(113, 113, 113) 0 0 10px 0;
+        z-index: 1000;
+       }
+       .list1{
+        display: none;
+       }
+       .list li{
+        margin: 0px 0;
+        width: 100%;
+        padding: 20px 30px;
+    
+       }
+       .link{
+        width: 100%;
+       
+        font-weight: 500;
+        font-size: 13px;
+        border-radius: 15px;
+        transition: 300ms;
+      
+       }
+       .list li:hover{
+        
+        background-color: white;
+        color: black;
+        transition: 300ms;
+       }
+       .menu{
+        cursor: pointer;
+       }
+       .title{
+           font-size: 18px;
+           font-weight: 600;
+           color: rgb(221, 210, 210);
+           user-select: none;
+       }
+       .button{
+        display: none;
+        outline: none;
+        padding: 9px 30px;
+        border: rgb(221, 210, 210) 2px solid;
+        background-color: transparent;
+        transition: 300ms;
+        border-radius: 20px;
+        color:  rgb(221, 210, 210);;
+       }
+       .button:hover{
+        background-color:  rgb(221, 210, 210);;
+        transition: 300ms;
+        color: black;
+       }
+}
+
+@media (max-width :600px) {
+    .navbar{
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 3vw;
+        margin-bottom: 20px;
+        box-shadow: rgb(113, 113, 113) 0 0 10px 0;
+        position: relative;
+        z-index: 1000;
+        
+       
+       }
+       .list{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        height: calc(100vh - 60px);
+        width: 200px;
+        padding: 0px 0 0 00px;
+        list-style: none;
+        justify-content: flex-start;
+        /* background-color: blue; */
+        box-shadow: rgb(113, 113, 113) 0 0 10px 0;
+        z-index: 1000;
+       }
+       .list1{
+        display: none;
+       }
+       .list li{
+        margin: 0px 0;
+        width: 100%;
+        padding: 20px 30px;
+    
+       }
+       .link{
+        width: 100%;
+       
+        font-weight: 500;
+        font-size: 13px;
+        border-radius: 15px;
+        transition: 300ms;
+      
+       }
+       .list li:hover{
+        
+        background-color: white;
+        color: black;
+        transition: 300ms;
+       }
+       .menu{
+        cursor: pointer;
+       }
+       .title{
+           font-size: 18px;
+           font-weight: 600;
+           color: rgb(221, 210, 210);
+           user-select: none;
+       }
+       .button{
+    
+        outline: none;
+        padding: 9px 30px;
+        border: rgb(221, 210, 210) 2px solid;
+        background-color: transparent;
+        transition: 300ms;
+        border-radius: 20px;
+        color:  rgb(221, 210, 210);;
+        margin-left: 200px;
+       }
+       .button:hover{
+        background-color:  rgb(221, 210, 210);;
+        transition: 300ms;
+        color: black;
+       }
+}
